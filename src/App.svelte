@@ -1,15 +1,11 @@
-<div class="card bg-base-100 w-96 shadow-xl">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-      alt="Shoes"
-    />
-  </figure>
-  <div class="card-body">
-    <h2 class="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
+<script>
+  import Content from "./lib/Content.svelte" 
+  import Nav from "./lib/Navbar.svelte"
+  import Footer from "./lib/Footer.svelte"
+</script>
+
+<div class="bg-gray-100 text-gray-900">
+  <Nav />
+  <Content />
+  <Footer />
 </div>
